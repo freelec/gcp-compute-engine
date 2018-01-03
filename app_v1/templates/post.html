@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ko">
 
 <head>
     <meta charset="utf-8">
-    <title>伝言板</title>
+    <title>게시판</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/static/css/bootstrap.css" media="screen">
@@ -17,11 +17,11 @@
         <!-- Main -->
         <div class="jumbotron">
             <blockquote>
-                <p>{{ name }} さんからのメッセージを受け取りました</p>
+                <p>{{ name }} 로부터 메시지를 받았습니다.</p>
                 <small>{{ timestamp }}</small>
             </blockquote>
             <form action={{ url_for( 'messages') }}>
-                <input class="btn btn-primary btn-lg" type=submit value='伝言板にもどる'>
+                <input class="btn btn-primary btn-lg" type=submit value='게시판으로 돌아가기'>
             </form>
         </div>
     </div>
