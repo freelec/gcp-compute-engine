@@ -1,4 +1,4 @@
-プログラマのためのGoogle Cloud Platform入門
+프로그래머를위한Google Cloud Platform입문
 ======================
 
 ## 第2章 Webアプリケーション実行基盤を構築しよう
