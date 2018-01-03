@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ko">
 
 <head>
     <meta charset="utf-8">
-    <title>伝言板</title>
+    <title>게시판</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/static/css/bootstrap.css" media="screen">
@@ -17,9 +17,9 @@
         <!-- Main -->
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-6">
-                <h3>新しいメッセージをどうぞ！</h3></div>
+                <h3>새로운 메시지를 적어주세요!</h3></div>
             <div class="col-lg-7 col-md-7 col-sm-6">
-                <h3>これまでのメッセージ</h3></div>
+                <h3>지금까지의 메시지</h3></div>
         </div>
         <!-- Form -->
         <div class="row">
@@ -39,8 +39,8 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-lg-10">
-                                    <input type=reset value='クリア' class="btn btn-default">
-                                    <input type=submit value='投稿' class="btn btn-primary">
+                                    <input type=reset value='클리어' class="btn btn-default">
+                                    <input type=submit value='등록' class="btn btn-primary">
                                 </div>
                             </div>
                         </fieldset>
@@ -53,7 +53,7 @@
                     {% for message in messages %}
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">{{ message.timestamp }} に {{ message.name }} さんが投稿しました</h3>
+                            <h3 class="panel-title">{{ message.timestamp }} に {{ message.name }} 님이 글을 올렸습니다.</h3>
                         </div>
                         <div class="panel-body">
                             {{ message.message | add_br }}
