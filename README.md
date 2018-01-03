@@ -3,10 +3,10 @@
 
 ## 2장 웹 애플리케이션 실행 환경 만들기
 
-//本リポジトリは、「プログラマのためのGoogle Cloud Platform入門〜 サービスの全体像からクラウドネイティブアプリケーション構築まで〜」の第2章で使用するサンプルアプリケーションです。
+이 저장소는 "프로그래머를 위한 Google Cloud Platform 입문"의 2장에서 사용한 샘플 애플리케이션입니다.
 
 
-//![gcp](http://www.seshop.com/static/images/product/17756/L.png)
+![gcp](http://www.seshop.com/static/images/product/17756/L.png)
 
 
 ***
